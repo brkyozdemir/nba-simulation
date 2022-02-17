@@ -8,6 +8,6 @@ type Cron struct {
 
 func NewCron() Cron {
 	return Cron{
-		TimeIntervalInSeconds: helpers.Getenv("TIME_INTERVAL_IN_MINUTES", "5"),
+		TimeIntervalInSeconds: helpers.Getenv("TIME_INTERVAL_IN_SECONDS", "5"),
 	}
 }
